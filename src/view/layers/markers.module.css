@@ -1,0 +1,19 @@
+.container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: inherit;
+  height: inherit;
+
+  overflow: hidden;
+}
+
+.marker {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  margin: -24px 0 0 -12px;
+
+  fill: #86c232;
+  filter: drop-shadow(0px 0px 3px #000000dd);
+}

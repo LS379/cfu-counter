@@ -1,0 +1,37 @@
+.container {
+  padding: 12px 0;
+
+  border: 0px solid #474b4f;
+  border-bottom: 1px solid #474b4f;
+}
+
+.controls {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.controls input {
+  height: 24px;
+  font-size: 16px;
+  color: black;
+  border: 0 none transparent;
+  padding: 3px 6px;
+}
+
+.controls input::placeholder {
+  color: black;
+}
+
+.hideButton {
+  min-width: 60px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  background: #61892f;
+  border: 0 none transparent;
+  margin: 0 1px;
+}
+
+.hideButton:hover {
+  background: #86c232;
+}

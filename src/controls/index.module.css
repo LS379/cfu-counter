@@ -1,0 +1,34 @@
+.container {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  background: #222629;
+  color: white;
+}
+
+
+.fileControls {
+  display: flex;
+
+  justify-content: center;
+  margin-bottom: 12px;
+}
+
+.fileControls button {
+  height: 32px;
+  min-width: 32px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  background: #61892f;
+  border: 0 none transparent;
+  margin: 0 1px;
+}
+
+.fileControls button:hover {
+  background: #86c232;
+}
+
+.counter {
+  margin-bottom: 24px;
+}

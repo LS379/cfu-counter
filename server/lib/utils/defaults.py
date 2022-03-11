@@ -1,0 +1,3 @@
+DEFAULTS = {
+    "method": 1
+}
