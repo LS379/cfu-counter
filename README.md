@@ -1,4 +1,28 @@
+CFU Counter is an open-source application for automated counting of colony-forming units (CFUs) from microbiological plate images.
+Developed as part of my Master’s dissertation project, it provides reproducible morphology-based image analysis for quantitative microbiology.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+**Project Structure**
+cfu-counter/
+│
+├── src/                      # React frontend
+│   ├── components/
+│   ├── pages/
+│   └── utils/
+│
+├── public/                   # Static assets
+│
+├── server/                   # Backend + Python analysis
+│   ├── index.js              # Node.js API
+│   ├── convert.py            # Colony detection module
+│   ├── __init__.py
+│   └── requirements.txt
+│
+├── config/                   # Build configuration
+├── scripts/                  # Development scripts
+├── package.json              # Dependencies
+└── README.md
 
 
 ## Available Scripts
